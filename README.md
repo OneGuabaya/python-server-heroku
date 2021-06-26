@@ -17,5 +17,15 @@ Consider changing them with some functions if the (DB_NAME,DB_USERNAME,DB_PASSWO
 
 # Cautions
 - Once this repo is forked, please keep it as a PRIVATE repo, otherwise it will leak your own database password
-- Enabling https with CORS parts code, `cert.pem` and `key.pem` files is not mandatory
+- Enabling https by having CORS parts code in `app.py` + creating both files `cert.pem` and `key.pem` is not mandatory
 - Don't use this as production server, it's only for demonstration purpose.
+
+# How to run it locally
+```
+git clone https://github.com/jadynekena/python-server-heroku
+cd python-server-heroku
+python app.py
+```
+
+Then go to `http(s)//127.0.0.1:5000/<YOUR-DB-HOST>/<YOUR-SQL-STATEMENT>/[true]`. Force to https if you enabled CORS.
+The last parameter is set to `true` if your SQL statement is not a SELECT one.
