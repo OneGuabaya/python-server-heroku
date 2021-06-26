@@ -3,7 +3,7 @@ It's basically the code of [this article](https://data-addict.com/retrieve-datas
 The main goal is to create a Heroku a global controller to retrieve datas from postgreSQL to your Google Sheets spreadsheet.
 
 # How to use it
-Just fork the project, and deploy it on Heroku as described on the above article.
+Just fork the project, and deploy it on Heroku as described in the above article.
 
 # What should I change on the code
 Go to `app.py` file > change the global variables with your own:
