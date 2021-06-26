@@ -1,0 +1,7 @@
+{
+  "name": "Flask controller from postgreSQL to Google Sheets",
+  "description": "A simple flask server that handles SQL queries directly from URL.",
+  "repository": "https://github.com/jadynekena/python-server-heroku",
+  "logo": "https://data-addict.com/assets/img/avatar.jpg",
+  "keywords": ["python", "postgreSQL", "google-sheets"]
+}
