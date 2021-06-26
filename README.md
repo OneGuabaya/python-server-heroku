@@ -14,3 +14,8 @@ DB_PASSWORD
 ```
 
 Consider changing them with some functions if the (DB_NAME,DB_USERNAME,DB_PASSWORD) are not the same depending on your database connection string.
+
+# Cautions
+- Once this repo is forked, please keep it as a PRIVATE repo, otherwise it will leak your own database password
+- Enabling https with CORS parts code, `cert.pem` and `key.pem` files is not mandatory
+- Don't use this as production server, it's only for demonstration purpose.
