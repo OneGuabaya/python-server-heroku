@@ -11,9 +11,9 @@ import os
 
 
 
-DB_NAME = "postgres" #to be changed
-DB_USERNAME = "postgres" #to be changed
-DB_PASSWORD = "hellothisisapasswordandihopeitsstrongenough2021" #to be changed
+DB_NAME = "da3bv70mm2t356" #to be changed
+DB_USERNAME = "imzmhbnnzysjbs" #to be changed
+DB_PASSWORD = "a1a6e6bc412c0c1e8df98b79a5af4d92288e90d9813e10c453546c9a42f1ba9f" #to be changed
 
 
 def try_connect(host_value,database_value,user_value,password_value):

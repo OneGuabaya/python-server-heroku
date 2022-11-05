@@ -1,4 +1,0 @@
-psycopg2
-Flask
-flask_cors
-gunicorn
